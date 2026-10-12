@@ -1,0 +1,25 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<package xmlns="http://schemas.microsoft.com/packaging/2012/06/nuspec.xsd">
+  <metadata>
+    <id>dotnet-serve</id>
+    <version>1.10.194</version>
+    <authors>Nate McMaster</authors>
+    <license type="expression">Apache-2.0</license>
+    <licenseUrl>https://licenses.nuget.org/Apache-2.0</licenseUrl>
+    <readme>README.md</readme>
+    <projectUrl>https://github.com/natemcmaster/dotnet-serve</projectUrl>
+    <description>A simple command-line HTTP server.
+
+This package was build from source code at https://github.com/natemcmaster/dotnet-serve/tree/9d9dd6054a2bf57526cdf3a2e88309a56e28ecdc</description>
+    <copyright>Copyright © Nate McMaster</copyright>
+    <packageTypes>
+      <packageType name="DotnetTool" />
+    </packageTypes>
+    <repository type="git" url="https://github.com/natemcmaster/dotnet-serve" commit="9d9dd6054a2bf57526cdf3a2e88309a56e28ecdc" />
+    <frameworkReferences>
+      <group targetFramework="net8.0">
+        <frameworkReference name="Microsoft.AspNetCore.App" />
+      </group>
+    </frameworkReferences>
+  </metadata>
+</package>

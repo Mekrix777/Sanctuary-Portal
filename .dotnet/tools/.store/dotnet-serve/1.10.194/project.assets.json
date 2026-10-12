@@ -1,0 +1,23 @@
+{
+  "version": 3,
+  "targets": {
+    "net8.0/linux-bionic-arm64": {
+      "dotnet-serve/1.10.194": {
+        "type": "package",
+        "tools": {
+          "tools/net8.0/any/BouncyCastle.Crypto.dll": {},
+          "tools/net8.0/any/DotNetConfig.dll": {},
+          "tools/net8.0/any/DotnetToolSettings.xml": {},
+          "tools/net8.0/any/McMaster.Extensions.CommandLineUtils.dll": {},
+          "tools/net8.0/any/System.IO.Hashing.dll": {},
+          "tools/net8.0/any/Yarp.ReverseProxy.dll": {},
+          "tools/net8.0/any/dotnet-serve.deps.json": {},
+          "tools/net8.0/any/dotnet-serve.dll": {},
+          "tools/net8.0/any/dotnet-serve.runtimeconfig.json": {}
+        }
+      }
+    }
+  },
+  "libraries": {},
+  "projectFileDependencyGroups": {}
+}

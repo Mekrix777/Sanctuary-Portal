@@ -1,0 +1,322 @@
+[EXEC] ls -la
+total 847
+drwx------. 10 u0_a295 u0_a295   3452 Oct 12 14:21 .
+drwxrwx--x.  4 u0_a295 u0_a295   3452 Oct  9 22:08 ..
+-rw-------.  1 u0_a295 u0_a295  22531 Oct 11 19:07 .bash_history
+drwx------.  3 u0_a295 u0_a295   3452 Oct  8 20:39 .config
+drwx------.  9 u0_a295 u0_a295   3452 Oct 11 02:44 .dotnet
+-rw-------.  1 u0_a295 u0_a295     51 Oct  9 20:23 .gitconfig
+drwx------.  3 u0_a295 u0_a295   3452 Oct  9 18:36 .local
+drwx------.  4 u0_a295 u0_a295   3452 Oct 10 04:43 .nuget
+drwx------.  2 u0_a295 u0_a295   3452 Oct  9 19:51 .ssh
+-rw-------.  1 u0_a295 u0_a295   2772 Oct 11 19:40 AiEngine.cs
+-rwx------.  1 u0_a295 u0_a295   5632 Oct 11 19:40 AiEngine.exe
+drwx------.  9 u0_a295 u0_a295   3452 Oct 11 02:42 GamesMasterEngine
+-rw-------.  1 u0_a295 u0_a295   1233 Oct 11 17:59 Program.cs
+drwx------.  2 u0_a295 u0_a295   3452 Oct  9 00:49 build
+-rw-------.  1 u0_a295 u0_a295    405 Oct 11 18:36 core.cpp
+drwx------.  2 u0_a295 u0_a295   3452 Oct 10 21:04 downloads
+-rw-------.  1 u0_a295 u0_a295   1969 Oct 12 15:01 index.html
+-rwx------.  1 u0_a295 u0_a295  54168 Oct 11 18:36 libcore.so
+-rw-------.  1 u0_a295 u0_a295 181142 Oct  9 00:39 program.c
+-rw-------.  1 u0_a295 u0_a295 181141 Oct  9 00:41 program.cO
+-rw-------.  1 u0_a295 u0_a295 180637 Oct  9 00:33 program.cp
+-rwx------.  1 u0_a295 u0_a295   3006 Oct 11 19:53 run_sanctuary.sh
+-rwx------.  1 u0_a295 u0_a295   5550 Oct 11 19:56 run_sanctuary_dashboard.sh
+-rwx------.  1 u0_a295 u0_a295   5267 Oct 11 21:39 run_sanctuary_exorpero.sh
+-rwx------.  1 u0_a295 u0_a295   6056 Oct 11 21:31 run_sanctuary_hardware.sh
+-rwx------.  1 u0_a295 u0_a295   7524 Oct 11 21:29 run_sanctuary_puzzle.sh
+-rwx------.  1 u0_a295 u0_a295   4957 Oct 11 21:34 run_sanctuary_real_hw.sh
+-rwx------.  1 u0_a295 u0_a295   5342 Oct 11 21:44 run_sanctuary_storage.sh
+-rwx------.  1 u0_a295 u0_a295   8911 Oct 11 21:51 run_sanctuary_tabs.sh
+-rwx------.  1 u0_a295 u0_a295   5196 Oct 11 21:36 run_sanctuary_threads.sh
+-rwx------.  1 u0_a295 u0_a295   9980 Oct 11 20:03 run_sanctuary_v3.sh
+-rw-------.  1 u0_a295 u0_a295  74967 Oct 11 22:01 run_sanctuary_v5.sh
+-rw-------.  1 u0_a295 u0_a295   2867 Oct 12 15:01 server.py
+--------------------
+[EXEC] ls -la AiEngine.cs core.cpp libcore.so
+Wynik:
+-rw-------. 1 u0_a295 u0_a295  2772 Oct 11 19:40 AiEngine.cs
+-rw-------. 1 u0_a295 u0_a295   405 Oct 11 18:36 core.cpp
+-rwx------. 1 u0_a295 u0_a295 54168 Oct 11 18:36 libcore.so
+----------------------------------------
+[EXEC] dotnet --version
+Wynik:
+8.0.128
+----------------------------------------
+[EXEC] g++ --version
+Wynik:
+clang version 21.1.8
+Target: aarch64-unknown-linux-android30
+Thread model: posix
+InstalledDir: /data/data/com.termux/files/usr/bin
+----------------------------------------
+[EXEC] dotnet --version
+Wynik:
+8.0.128
+----------------------------------------
+[EXEC] g++ --version
+Wynik:
+clang version 21.1.8
+Target: aarch64-unknown-linux-android30
+Thread model: posix
+InstalledDir: /data/data/com.termux/files/usr/bin
+----------------------------------------
+[EXEC] ls -la AiEngine.cs core.cpp libcore.so
+Wynik:
+-rw-------. 1 u0_a295 u0_a295  2772 Oct 11 19:40 AiEngine.cs
+-rw-------. 1 u0_a295 u0_a295   405 Oct 11 18:36 core.cpp
+-rwx------. 1 u0_a295 u0_a295 54168 Oct 11 18:36 libcore.so
+----------------------------------------
+[EXEC] ls -la
+Wynik:
+total 859
+drwx------. 10 u0_a295 u0_a295   3452 Oct 12 15:02 .
+drwxrwx--x.  4 u0_a295 u0_a295   3452 Oct  9 22:08 ..
+-rw-------.  1 u0_a295 u0_a295  22531 Oct 11 19:07 .bash_history
+drwx------.  3 u0_a295 u0_a295   3452 Oct  8 20:39 .config
+drwx------.  9 u0_a295 u0_a295   3452 Oct 11 02:44 .dotnet
+-rw-------.  1 u0_a295 u0_a295     51 Oct  9 20:23 .gitconfig
+drwx------.  3 u0_a295 u0_a295   3452 Oct  9 18:36 .local
+drwx------.  4 u0_a295 u0_a295   3452 Oct 10 04:43 .nuget
+drwx------.  2 u0_a295 u0_a295   3452 Oct  9 19:51 .ssh
+-rw-------.  1 u0_a295 u0_a295   2772 Oct 11 19:40 AiEngine.cs
+-rwx------.  1 u0_a295 u0_a295   5632 Oct 11 19:40 AiEngine.exe
+drwx------.  9 u0_a295 u0_a295   3452 Oct 11 02:42 GamesMasterEngine
+-rw-------.  1 u0_a295 u0_a295   1233 Oct 11 17:59 Program.cs
+drwx------.  2 u0_a295 u0_a295   3452 Oct  9 00:49 build
+-rw-------.  1 u0_a295 u0_a295    405 Oct 11 18:36 core.cpp
+drwx------.  2 u0_a295 u0_a295   3452 Oct 10 21:04 downloads
+-rw-------.  1 u0_a295 u0_a295  11800 Oct 12 15:11 index.html
+-rwx------.  1 u0_a295 u0_a295  54168 Oct 11 18:36 libcore.so
+-rw-------.  1 u0_a295 u0_a295 181142 Oct  9 00:39 program.c
+-rw-------.  1 u0_a295 u0_a295 181141 Oct  9 00:41 program.cO
+-rw-------.  1 u0_a295 u0_a295 180637 Oct  9 00:33 program.cp
+-rwx------.  1 u0_a295 u0_a295   3006 Oct 11 19:53 run_sanctuary.sh
+-rwx------.  1 u0_a295 u0_a295   5550 Oct 11 19:56 run_sanctuary_dashboard.sh
+-rwx------.  1 u0_a295 u0_a295   5267 Oct 11 21:39 run_sanctuary_exorpero.sh
+-rwx------.  1 u0_a295 u0_a295   6056 Oct 11 21:31 run_sanctuary_hardware.sh
+-rwx------.  1 u0_a295 u0_a295   7524 Oct 11 21:29 run_sanctuary_puzzle.sh
+-rwx------.  1 u0_a295 u0_a295   4957 Oct 11 21:34 run_sanctuary_real_hw.sh
+-rwx------.  1 u0_a295 u0_a295   5342 Oct 11 21:44 run_sanctuary_storage.sh
+-rwx------.  1 u0_a295 u0_a295   8911 Oct 11 21:51 run_sanctuary_tabs.sh
+-rwx------.  1 u0_a295 u0_a295   5196 Oct 11 21:36 run_sanctuary_threads.sh
+-rwx------.  1 u0_a295 u0_a295   9980 Oct 11 20:03 run_sanctuary_v3.sh
+-rw-------.  1 u0_a295 u0_a295  74967 Oct 11 22:01 run_sanctuary_v5.sh
+-rw-------.  1 u0_a295 u0_a295   3299 Oct 12 15:08 sanctuary_vault.log
+-rw-------.  1 u0_a295 u0_a295   2950 Oct 12 15:07 server.py
+----------------------------------------
+[EXEC] pwd
+Wynik:
+/data/data/com.termux/files/home
+----------------------------------------
+[EXEC] ls -la AiEngine.cs core.cpp libcore.so
+Wynik:
+-rw-------. 1 u0_a295 u0_a295  2772 Oct 11 19:40 AiEngine.cs
+-rw-------. 1 u0_a295 u0_a295   405 Oct 11 18:36 core.cpp
+-rwx------. 1 u0_a295 u0_a295 54168 Oct 11 18:36 libcore.so
+----------------------------------------
+[EXEC] ls -la AiEngine.cs core.cpp libcore.so
+Wynik:
+-rw-------. 1 u0_a295 u0_a295  2772 Oct 11 19:40 AiEngine.cs
+-rw-------. 1 u0_a295 u0_a295   405 Oct 11 18:36 core.cpp
+-rwx------. 1 u0_a295 u0_a295 54168 Oct 11 18:36 libcore.so
+----------------------------------------
+[SECURE EXEC] ./AiEngine.exe
+Wynik:
+./AiEngine.exe: 1: MZ����@���: not found
+./AiEngine.exe: 55: Syntax error: Unterminated quoted string
+
+----------------------------------------
+[SECURE EXEC] dotnet --version && g++ --version
+Wynik:
+8.0.128
+clang version 21.1.8
+Target: aarch64-unknown-linux-android30
+Thread model: posix
+InstalledDir: /data/data/com.termux/files/usr/bin
+
+----------------------------------------
+[SECURE EXEC] ./AiEngine.exe
+Wynik:
+./AiEngine.exe: 1: MZ����@���: not found
+./AiEngine.exe: 55: Syntax error: Unterminated quoted string
+
+----------------------------------------
+[SECURE EXEC] ls -la
+Wynik:
+total 879
+drwx------. 10 u0_a295 u0_a295   3452 Oct 12 15:38 .
+drwxrwx--x.  4 u0_a295 u0_a295   3452 Oct  9 22:08 ..
+-rw-------.  1 u0_a295 u0_a295  22531 Oct 11 19:07 .bash_history
+drwx------.  3 u0_a295 u0_a295   3452 Oct  8 20:39 .config
+drwx------.  9 u0_a295 u0_a295   3452 Oct 11 02:44 .dotnet
+-rw-------.  1 u0_a295 u0_a295     51 Oct  9 20:23 .gitconfig
+drwx------.  3 u0_a295 u0_a295   3452 Oct  9 18:36 .local
+drwx------.  4 u0_a295 u0_a295   3452 Oct 10 04:43 .nuget
+drwx------.  2 u0_a295 u0_a295   3452 Oct  9 19:51 .ssh
+-rw-------.  1 u0_a295 u0_a295   7751 Oct 12 15:43 AiEngine.cs
+-rwx------.  1 u0_a295 u0_a295   6144 Oct 12 15:38 AiEngine.exe
+drwx------.  9 u0_a295 u0_a295   3452 Oct 11 02:42 GamesMasterEngine
+-rw-------.  1 u0_a295 u0_a295   1233 Oct 11 17:59 Program.cs
+drwx------.  2 u0_a295 u0_a295   3452 Oct  9 00:49 build
+-rw-------.  1 u0_a295 u0_a295    423 Oct 12 15:38 core.cpp
+drwx------.  2 u0_a295 u0_a295   3452 Oct 10 21:04 downloads
+-rw-------.  1 u0_a295 u0_a295  19846 Oct 12 15:29 index.html
+-rwx------.  1 u0_a295 u0_a295  54200 Oct 12 15:38 libcore.so
+-rw-------.  1 u0_a295 u0_a295 181142 Oct  9 00:39 program.c
+-rw-------.  1 u0_a295 u0_a295 181141 Oct  9 00:41 program.cO
+-rw-------.  1 u0_a295 u0_a295 180637 Oct  9 00:33 program.cp
+-rwx------.  1 u0_a295 u0_a295   3006 Oct 11 19:53 run_sanctuary.sh
+-rwx------.  1 u0_a295 u0_a295   5550 Oct 11 19:56 run_sanctuary_dashboard.sh
+-rwx------.  1 u0_a295 u0_a295   5267 Oct 11 21:39 run_sanctuary_exorpero.sh
+-rwx------.  1 u0_a295 u0_a295   6056 Oct 11 21:31 run_sanctuary_hardware.sh
+-rwx------.  1 u0_a295 u0_a295   7524 Oct 11 21:29 run_sanctuary_puzzle.sh
+-rwx------.  1 u0_a295 u0_a295   4957 Oct 11 21:34 run_sanctuary_real_hw.sh
+-rwx------.  1 u0_a295 u0_a295   5342 Oct 11 21:44 run_sanctuary_storage.sh
+-rwx------.  1 u0_a295 u0_a295   8911 Oct 11 21:51 run_sanctuary_tabs.sh
+-rwx------.  1 u0_a295 u0_a295   5196 Oct 11 21:36 run_sanctuary_threads.sh
+-rwx------.  1 u0_a295 u0_a295   9980 Oct 11 20:03 run_sanctuary_v3.sh
+-rw-------.  1 u0_a295 u0_a295  74967 Oct 11 22:01 run_sanctuary_v5.sh
+-rw-------.  1 u0_a295 u0_a295   6862 Oct 12 15:30 sanctuary_vault.log
+-rw-------.  1 u0_a295 u0_a295   5021 Oct 12 15:42 server.py
+
+----------------------------------------
+[SECURE EXEC] ls -la
+Wynik:
+total 883
+drwx------. 10 u0_a295 u0_a295   3452 Oct 12 15:38 .
+drwxrwx--x.  4 u0_a295 u0_a295   3452 Oct  9 22:08 ..
+-rw-------.  1 u0_a295 u0_a295  22531 Oct 11 19:07 .bash_history
+drwx------.  3 u0_a295 u0_a295   3452 Oct  8 20:39 .config
+drwx------.  9 u0_a295 u0_a295   3452 Oct 11 02:44 .dotnet
+-rw-------.  1 u0_a295 u0_a295     51 Oct  9 20:23 .gitconfig
+drwx------.  3 u0_a295 u0_a295   3452 Oct  9 18:36 .local
+drwx------.  4 u0_a295 u0_a295   3452 Oct 10 04:43 .nuget
+drwx------.  2 u0_a295 u0_a295   3452 Oct  9 19:51 .ssh
+-rw-------.  1 u0_a295 u0_a295   7751 Oct 12 15:43 AiEngine.cs
+-rwx------.  1 u0_a295 u0_a295   6144 Oct 12 15:38 AiEngine.exe
+drwx------.  9 u0_a295 u0_a295   3452 Oct 11 02:42 GamesMasterEngine
+-rw-------.  1 u0_a295 u0_a295   1233 Oct 11 17:59 Program.cs
+drwx------.  2 u0_a295 u0_a295   3452 Oct  9 00:49 build
+-rw-------.  1 u0_a295 u0_a295    423 Oct 12 15:38 core.cpp
+drwx------.  2 u0_a295 u0_a295   3452 Oct 10 21:04 downloads
+-rw-------.  1 u0_a295 u0_a295  19846 Oct 12 15:29 index.html
+-rwx------.  1 u0_a295 u0_a295  54200 Oct 12 15:38 libcore.so
+-rw-------.  1 u0_a295 u0_a295 181142 Oct  9 00:39 program.c
+-rw-------.  1 u0_a295 u0_a295 181141 Oct  9 00:41 program.cO
+-rw-------.  1 u0_a295 u0_a295 180637 Oct  9 00:33 program.cp
+-rwx------.  1 u0_a295 u0_a295   3006 Oct 11 19:53 run_sanctuary.sh
+-rwx------.  1 u0_a295 u0_a295   5550 Oct 11 19:56 run_sanctuary_dashboard.sh
+-rwx------.  1 u0_a295 u0_a295   5267 Oct 11 21:39 run_sanctuary_exorpero.sh
+-rwx------.  1 u0_a295 u0_a295   6056 Oct 11 21:31 run_sanctuary_hardware.sh
+-rwx------.  1 u0_a295 u0_a295   7524 Oct 11 21:29 run_sanctuary_puzzle.sh
+-rwx------.  1 u0_a295 u0_a295   4957 Oct 11 21:34 run_sanctuary_real_hw.sh
+-rwx------.  1 u0_a295 u0_a295   5342 Oct 11 21:44 run_sanctuary_storage.sh
+-rwx------.  1 u0_a295 u0_a295   8911 Oct 11 21:51 run_sanctuary_tabs.sh
+-rwx------.  1 u0_a295 u0_a295   5196 Oct 11 21:36 run_sanctuary_threads.sh
+-rwx------.  1 u0_a295 u0_a295   9980 Oct 11 20:03 run_sanctuary_v3.sh
+-rw-------.  1 u0_a295 u0_a295  74967 Oct 11 22:01 run_sanctuary_v5.sh
+-rw-------.  1 u0_a295 u0_a295   9161 Oct 12 15:43 sanctuary_vault.log
+-rw-------.  1 u0_a295 u0_a295   5021 Oct 12 15:42 server.py
+
+----------------------------------------
+[SECURE EXEC] ./AiEngine.exe
+Wynik:
+./AiEngine.exe: 1: MZ����@���: not found
+./AiEngine.exe: 71: Syntax error: EOF in backquote substitution
+
+----------------------------------------
+[SECURE EXEC] dotnet --version && g++ --version
+Wynik:
+8.0.128
+clang version 21.1.8
+Target: aarch64-unknown-linux-android30
+Thread model: posix
+InstalledDir: /data/data/com.termux/files/usr/bin
+
+----------------------------------------
+[SECURE EXEC] ls -la
+Wynik:
+total 887
+drwx------. 10 u0_a295 u0_a295   3452 Oct 12 15:50 .
+drwxrwx--x.  4 u0_a295 u0_a295   3452 Oct  9 22:08 ..
+-rw-------.  1 u0_a295 u0_a295  22531 Oct 11 19:07 .bash_history
+drwx------.  3 u0_a295 u0_a295   3452 Oct  8 20:39 .config
+drwx------.  9 u0_a295 u0_a295   3452 Oct 11 02:44 .dotnet
+-rw-------.  1 u0_a295 u0_a295     51 Oct  9 20:23 .gitconfig
+drwx------.  3 u0_a295 u0_a295   3452 Oct  9 18:36 .local
+drwx------.  4 u0_a295 u0_a295   3452 Oct 10 04:43 .nuget
+drwx------.  2 u0_a295 u0_a295   3452 Oct  9 19:51 .ssh
+-rw-------.  1 u0_a295 u0_a295   7751 Oct 12 15:48 AiEngine.cs
+-rwx------.  1 u0_a295 u0_a295   6144 Oct 12 15:38 AiEngine.exe
+drwx------.  9 u0_a295 u0_a295   3452 Oct 11 02:42 GamesMasterEngine
+-rw-------.  1 u0_a295 u0_a295   1233 Oct 11 17:59 Program.cs
+drwx------.  2 u0_a295 u0_a295   3452 Oct  9 00:49 build
+-rw-------.  1 u0_a295 u0_a295    423 Oct 12 15:50 core.cpp
+drwx------.  2 u0_a295 u0_a295   3452 Oct 10 21:04 downloads
+-rw-------.  1 u0_a295 u0_a295  22101 Oct 12 15:50 index.html
+-rwx------.  1 u0_a295 u0_a295  54200 Oct 12 15:50 libcore.so
+-rw-------.  1 u0_a295 u0_a295 181142 Oct  9 00:39 program.c
+-rw-------.  1 u0_a295 u0_a295 181141 Oct  9 00:41 program.cO
+-rw-------.  1 u0_a295 u0_a295 180637 Oct  9 00:33 program.cp
+-rwx------.  1 u0_a295 u0_a295   3006 Oct 11 19:53 run_sanctuary.sh
+-rwx------.  1 u0_a295 u0_a295   5550 Oct 11 19:56 run_sanctuary_dashboard.sh
+-rwx------.  1 u0_a295 u0_a295   5267 Oct 11 21:39 run_sanctuary_exorpero.sh
+-rwx------.  1 u0_a295 u0_a295   6056 Oct 11 21:31 run_sanctuary_hardware.sh
+-rwx------.  1 u0_a295 u0_a295   7524 Oct 11 21:29 run_sanctuary_puzzle.sh
+-rwx------.  1 u0_a295 u0_a295   4957 Oct 11 21:34 run_sanctuary_real_hw.sh
+-rwx------.  1 u0_a295 u0_a295   5342 Oct 11 21:44 run_sanctuary_storage.sh
+-rwx------.  1 u0_a295 u0_a295   8911 Oct 11 21:51 run_sanctuary_tabs.sh
+-rwx------.  1 u0_a295 u0_a295   5196 Oct 11 21:36 run_sanctuary_threads.sh
+-rwx------.  1 u0_a295 u0_a295   9980 Oct 11 20:03 run_sanctuary_v3.sh
+-rw-------.  1 u0_a295 u0_a295  74967 Oct 11 22:01 run_sanctuary_v5.sh
+-rw-------.  1 u0_a295 u0_a295  11898 Oct 12 15:48 sanctuary_vault.log
+-rw-------.  1 u0_a295 u0_a295   5967 Oct 12 15:51 server.py
+
+----------------------------------------
+[SECURE EXEC] ls -la
+Wynik:
+total 951
+drwx------. 10 u0_a295 u0_a295   3452 Oct 12 16:06 .
+drwxrwx--x.  4 u0_a295 u0_a295   3452 Oct  9 22:08 ..
+-rw-------.  1 u0_a295 u0_a295  22531 Oct 11 19:07 .bash_history
+drwx------.  3 u0_a295 u0_a295   3452 Oct  8 20:39 .config
+drwx------.  9 u0_a295 u0_a295   3452 Oct 11 02:44 .dotnet
+-rw-------.  1 u0_a295 u0_a295     51 Oct  9 20:23 .gitconfig
+drwx------.  3 u0_a295 u0_a295   3452 Oct  9 18:36 .local
+drwx------.  4 u0_a295 u0_a295   3452 Oct 10 04:43 .nuget
+drwx------.  2 u0_a295 u0_a295   3452 Oct  9 19:51 .ssh
+-rw-------.  1 u0_a295 u0_a295   7751 Oct 12 18:51 AiEngine.cs
+-rwx------.  1 u0_a295 u0_a295   6144 Oct 12 15:38 AiEngine.exe
+drwx------.  9 u0_a295 u0_a295   3452 Oct 11 02:42 GamesMasterEngine
+-rw-------.  1 u0_a295 u0_a295   1233 Oct 11 17:59 Program.cs
+drwx------.  2 u0_a295 u0_a295   3452 Oct  9 00:49 build
+-rw-------.  1 u0_a295 u0_a295    429 Oct 12 18:51 core.cpp
+drwx------.  2 u0_a295 u0_a295   3452 Oct 10 21:04 downloads
+-rw-------.  1 u0_a295 u0_a295  25187 Oct 12 18:51 index.html
+-rwx------.  1 u0_a295 u0_a295  54200 Oct 12 15:51 libcore.so
+-rw-------.  1 u0_a295 u0_a295  50594 Oct 12 18:51 nosql_store.json
+-rw-------.  1 u0_a295 u0_a295 181142 Oct  9 00:39 program.c
+-rw-------.  1 u0_a295 u0_a295 181141 Oct  9 00:41 program.cO
+-rw-------.  1 u0_a295 u0_a295 180637 Oct  9 00:33 program.cp
+-rwx------.  1 u0_a295 u0_a295   3006 Oct 11 19:53 run_sanctuary.sh
+-rwx------.  1 u0_a295 u0_a295   5550 Oct 11 19:56 run_sanctuary_dashboard.sh
+-rwx------.  1 u0_a295 u0_a295   5267 Oct 11 21:39 run_sanctuary_exorpero.sh
+-rwx------.  1 u0_a295 u0_a295   6056 Oct 11 21:31 run_sanctuary_hardware.sh
+-rwx------.  1 u0_a295 u0_a295   7524 Oct 11 21:29 run_sanctuary_puzzle.sh
+-rwx------.  1 u0_a295 u0_a295   4957 Oct 11 21:34 run_sanctuary_real_hw.sh
+-rwx------.  1 u0_a295 u0_a295   5342 Oct 11 21:44 run_sanctuary_storage.sh
+-rwx------.  1 u0_a295 u0_a295   8911 Oct 11 21:51 run_sanctuary_tabs.sh
+-rwx------.  1 u0_a295 u0_a295   5196 Oct 11 21:36 run_sanctuary_threads.sh
+-rwx------.  1 u0_a295 u0_a295   9980 Oct 11 20:03 run_sanctuary_v3.sh
+-rw-------.  1 u0_a295 u0_a295  74967 Oct 11 22:01 run_sanctuary_v5.sh
+-rw-------.  1 u0_a295 u0_a295  14197 Oct 12 15:51 sanctuary_vault.log
+-rw-------.  1 u0_a295 u0_a295  12137 Oct 12 18:51 server.py
+
+----------------------------------------
+[SECURE EXEC] pwd
+Wynik:
+/data/data/com.termux/files/home
+
+----------------------------------------

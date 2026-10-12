@@ -1,0 +1,19 @@
+{
+    "items": {
+        "_MonoRuntimeComponentLinking": [
+            { "identity": "static", "RuntimeIdentifier": "wasi-wasm" },
+        ],
+        "_MonoRuntimeComponentSharedLibExt": [
+            { "identity": ".so", "RuntimeIdentifier": "wasi-wasm" },
+        ],
+        "_MonoRuntimeComponentStaticLibExt": [
+            { "identity": ".a", "RuntimeIdentifier": "wasi-wasm" },
+        ],
+        "_MonoRuntimeAvailableComponents": [
+            { "identity": "debugger", "RuntimeIdentifier": "wasi-wasm" },
+{ "identity": "hot_reload", "RuntimeIdentifier": "wasi-wasm" },
+{ "identity": "diagnostics_tracing", "RuntimeIdentifier": "wasi-wasm" },
+{ "identity": "marshal-ilgen", "RuntimeIdentifier": "wasi-wasm" },
+        ],
+    }
+}
